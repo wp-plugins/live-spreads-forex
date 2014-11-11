@@ -1,0 +1,10 @@
+registration is required. 
+We need your url for the code to work, the code uses ajax to call the data.
+
+registration is painless
+
+just send the URL ( http://domain.com or if subdomain http://sub.domain.com ) to plugins@trader.tools 
+
+WITH SUBJECT [activate my plugin] 
+
+as soon as you have a reply - the data will stream in.
