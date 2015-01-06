@@ -2,7 +2,7 @@
 Contributors: (trader.tools)
 Tags: Forex, FX, Live Spreads, Forex Spreads
 Requires at least: 3.4.1
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -28,3 +28,8 @@ Screenshot.png included
 
 = 1.0 =
 * released November 4, 2014
+
+== Changelog ==
+
+= 2.0 =
+* released January 5,2015

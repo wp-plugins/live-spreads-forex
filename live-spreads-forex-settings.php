@@ -11,7 +11,7 @@
 
             public static $default_settings = 
             array(     
-                'live_spreads_forex_url' => 'http://trader.tools/wp06/',
+                'live_spreads_forex_url' => 'http://trader.tools/wp07/',
             );
 
             var $pagehook, $page_id, $settings_field , $options;
@@ -62,7 +62,7 @@
             */    
             function sanitize_theme_settings($options) 
             {
-                   $options['live_spreads_forex_url']      = isset($this->settings['live_spreads_forex_url']) ? (trim($options['live_spreads_forex_url'])?trim($options['live_spreads_forex_url']) :'http://trader.tools/wp06/') : 'http://trader.tools/wp06/' ;
+                   $options['live_spreads_forex_url']      = isset($this->settings['live_spreads_forex_url']) ? (trim($options['live_spreads_forex_url'])?trim($options['live_spreads_forex_url']) :'http://trader.tools/wp07/') : 'http://trader.tools/wp07/' ;
                    return $options;
             }
 
@@ -83,7 +83,7 @@
 
             protected function get_field_value( $key ,$option_type) 
             {
-                return isset($this->settings[$key] ) ? $this->settings[$key]  : 'http://trader.tools/wp06/';
+                return isset($this->settings[$key] ) ? $this->settings[$key]  : 'http://trader.tools/wp07/';
             }
 
 
@@ -160,7 +160,7 @@
                         <td>
                             <input type="textarea" name="<?php echo $this->get_field_name( 'live_spreads_forex_url' , 'settings_field'); ?>" class="live_spreads_logo_path_url" id="<?php echo $this->get_field_id( 'live_spreads_forex_url' , 'settings_field'); ?>" value="<?php echo esc_attr( $this->get_field_value( 'live_spreads_forex_url' ,'settings' ) ); ?>"/>
                         </td>
-                        <td><?php _e( 'Ex :http://trader.tools/wp06/ ', 'live_spreads_forex_url' ); ?></td>
+                        <td><?php _e( 'Ex :http://trader.tools/wp07/ ', 'live_spreads_forex_url' ); ?></td>
                     </tr>
                 </table>
             </div> 
