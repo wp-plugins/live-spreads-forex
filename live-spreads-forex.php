@@ -3,7 +3,7 @@
     * Plugin Name: Live Spreads - Forex
     * Plugin URI: http://www.trader.tools
     * Description: Add [live_spread] in your page and go to preview page to see live spreads data in table view.Any other enquiry, please contact to plugin site.
-    * Version: 0.2
+    * Version: 0.3
     * Author URI: http://www.trader.tools
     */
 
@@ -47,13 +47,13 @@
                     throw new Exception('Please save Live Spreads Http Url From Plugin Settings Page');
                 }
 
-                $resp = curlRequest($settings['live_spreads_forex_url']."?sdf654sdf654s6df54sd6f4sd65f4sd65f4sd65f4sdf654sd65f4sdf654=as54d65a4das654da65s4d5a4sd654asd65asd");
-
+                $resp = curlRequest($settings['live_spreads_forex_url']."?sdf654sdf654s6df54sd6f4sd65f4sd65f4sd65f4sdf654sd65f4sdf654=aubf6792dmnf84n9kadhf9urklfo748hie832d");
+		
                 if(!$resp)
                 {
                     throw new Exception('Invalid Response.');
                 }
-
+			
                 $result = json_decode($resp,true);
 
                 if(!isset($result["content"]))
